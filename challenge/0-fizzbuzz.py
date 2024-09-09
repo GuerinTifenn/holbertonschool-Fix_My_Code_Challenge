@@ -3,6 +3,7 @@
 
 
 def fizzbuzz(n):
+    """Prints numbers from 1 to n with FizzBuzz rules."""
     for i in range(1, n + 1):
         if i % 15 == 0:
             print("FizzBuzz", end=" ")
@@ -12,6 +13,7 @@ def fizzbuzz(n):
             print("Buzz", end=" ")
         else:
             print(i, end=" ")
+
 
 if __name__ == "__main__":
     fizzbuzz(50)
