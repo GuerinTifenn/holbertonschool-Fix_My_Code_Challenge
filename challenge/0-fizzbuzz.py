@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# FizzBuzz implementation that prints "FizzBuzz" for multiples of 15
+"""FizzBuzz implementation that prints "FizzBuzz" for multiples of 15"""
+
 
 def fizzbuzz(n):
     for i in range(1, n + 1):
